@@ -57,7 +57,7 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('images/portland.jpg') no-repeat top center ;
+  background: url('images/richmond_resize.jpg') no-repeat center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -71,7 +71,8 @@ header .profile-image {
   height: 150px;
   border-radius: 50%;
   border: 3px solid white;
-  transition: all .5s;
+  transition: all .2s;
+  object-fit: cover;
 }
 header .profile-image:hover {
   transform: scale(1.2) rotate(5deg);
@@ -83,6 +84,10 @@ header .profile-image:hover {
   border-radius: 5px;
   display: table;
   margin: 10px auto;
+  transition: all .2s;
+}
+.tag:hover{
+  transform: scale(1.2);
 } 
 .location {
   background-color: #222;
